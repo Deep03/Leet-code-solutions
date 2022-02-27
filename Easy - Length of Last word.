@@ -1,0 +1,7 @@
+string = input(str("Enter a sentence:"))
+list1 = string.split(" ")
+index_of_last_word = len(list1) - 1
+last_word = list1[index_of_last_word]
+list2 = list(last_word)
+length = len(list2)
+print(f"The last word is {last_word}, and the length is {length}.")
